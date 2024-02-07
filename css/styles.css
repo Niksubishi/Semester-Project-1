@@ -14,6 +14,12 @@
     src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
   }
 
+  @font-face {
+    font-family: 'Inter-Regular';
+    font-size: 16px;
+    src: url('../fonts/Inter-Regular.ttf') format('truetype');
+  }
+
   *, html {
     margin:0;
     padding:0;  
@@ -22,7 +28,7 @@
   body {
     margin: 0;
     padding: 0;
-    font-family: 'PlayfairDisplay-Medium', sans-serif;
+    font-family: 'PlayfairDisplay-Regular', sans-serif;
     font-size: 16px;
     color: #000000;
     overscroll-behavior: none;
@@ -68,7 +74,16 @@ nav a {
     text-decoration: none;
     font-family: 'Inter-SemiBold';
     color: #ffffff;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    padding: 0 .25rem;
+    margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
+nav a:hover {
+    color: #000000;
+    box-shadow: inset 200px 0 0 0 #ffffff;;
+  }
 
 @media (max-width: 700px) {
     header img {
@@ -99,6 +114,22 @@ nav a {
     font-family: 'Inter-SemiBold';
     font-size: 2em;
     font-weight: bold;
+}
+
+
+.vrbutton {
+    color: #ffffff; 
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.6em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.vrbutton:hover {
+    background-color: #0056b3; 
 }
 
 @media (max-width: 800px) {
@@ -162,7 +193,10 @@ video {
 
 .section3text p {
     margin-bottom: 5%;
-    font-family: 'PlayfairDisplay-Regular';
+}
+
+.section3text span {
+    font-family: 'PlayfairDisplay-Medium';
 }
 
 .section3pic {
@@ -176,6 +210,7 @@ video {
 
 .section3pic img {
     width: 100%;
+    border-radius: 20px;
 }
 
 @media (max-width: 900px) {
@@ -198,6 +233,7 @@ video {
     .section3pic {
         width: 90%;
         margin-right: 0;
+        margin-bottom: 5%;
     }
 
     .section3pic img {
@@ -216,32 +252,38 @@ video {
 
 .section4image {
     width: 50%;
-    height: auto; 
+    padding: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .section4image img {
-    width: 100%;
-    height: 100%;
+    width: 95%;
+    margin-right: 5%;
+    border-radius: 20px;
 }
 
 .section4text {
+    font-family: 'PlayfairDisplay-Regular';
     width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 5%;
     color: #ffffff;
-    font-family: 'PlayfairDisplay-Regular';
-    font-weight: lighter;
     box-sizing: border-box;
 }
 
+.section4text span {
+    font-family: 'PlayfairDisplay-Medium';
+    font-weight: bold;
+}
+
 .section4text p {
-    width: 70%;
-    margin-bottom: 1%;
+    width: 90%;
+    margin-bottom: 3%;
 }
 
 @media (max-width: 900px) {
@@ -255,7 +297,9 @@ video {
     }
 
     .section4image img {
+        width: 100%;
         border-radius: 20px;
+        margin-right: 0%;
     }
 
     .section4text {
@@ -263,6 +307,7 @@ video {
         font-size: 0.9em;
         margin-top: 4%;
         margin-bottom: 4%;
+        margin-right: 0%;
     }
 
     .section4text p {
@@ -359,7 +404,7 @@ video {
 
 .sociallinks {
     display: flex;
-    margin-left: 7.5%;
+    margin-left: 7%;
 }
 
 .sociallinks a {
@@ -387,10 +432,16 @@ video {
 
 footer {
     display: flex;
-    height: 350px;
+    flex-direction: column;
+    height: auto; 
     background-color: #988C98; 
-    padding: 10px;
+}
+
+.footer-content {
+    display: flex;
     align-items: center;
+    margin-top: 5%;
+    margin-bottom: 8%;
 }
 
 footer img { 
@@ -414,6 +465,20 @@ footer img {
 .footer-item p {
     margin: 0; 
 }
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1%;
+    gap: 5%;
+}
+
+.footer-links a {
+    text-decoration: none; 
+    color: black;
+}
+
 
 @media (max-width: 800px) {
 
@@ -440,7 +505,14 @@ footer img {
     footer {
         flex-direction: column; 
         text-align: center; 
-        height: 315px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        flex-direction: column;
     }
 
     footer img { 
