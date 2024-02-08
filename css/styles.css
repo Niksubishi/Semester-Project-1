@@ -3,18 +3,18 @@
     src: url('../fonts/PlayfairDisplay-Medium.ttf') format('truetype');
   }
 
-  @font-face {
+@font-face {
     font-family: 'PlayfairDisplay-Regular';
     src: url('../fonts/PlayfairDisplay-Regular.ttf') format('truetype');
   }
 
-  @font-face {
+@font-face {
     font-family: 'Inter-SemiBold';
     font-size: 16px;
     src: url('../fonts/Inter-SemiBold.ttf') format('truetype');
   }
 
-  @font-face {
+@font-face {
     font-family: 'Inter-Regular';
     font-size: 16px;
     src: url('../fonts/Inter-Regular.ttf') format('truetype');
@@ -91,6 +91,8 @@ nav a:hover {
     }
 }
 
+/*HOMEPAGE*/
+
 /*SECTION1*/
 
 .image-container {
@@ -116,21 +118,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-
-.vrbutton {
-    color: #ffffff; 
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    font-size: 0.6em;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    text-decoration: none;
-}
-
-.vrbutton:hover {
-    background-color: #0056b3; 
-}
 
 @media (max-width: 800px) {
     .overlay-text {
@@ -224,6 +211,7 @@ video {
 
     .section3text h2 {
         text-align:  center;
+        font-size: 1.8em;
     }
 
     .section3text p {
@@ -232,7 +220,7 @@ video {
 
     .section3pic {
         width: 90%;
-        margin-right: 0;
+        margin-right: 0%;
         margin-bottom: 5%;
     }
 
@@ -392,7 +380,6 @@ video {
 }
 
 
-
 /*FOOTER*/
 
 .socialsstrip {
@@ -524,4 +511,66 @@ footer img {
         width: 100%; 
         margin-bottom: 10px; 
     }
+}
+
+/*INFO*/
+
+/*EXHIBITIONS*/
+
+.exhibitonsheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2E9E4;
+    padding: 2%;
+}
+
+.exhibitonsheader h1 {
+    font-family: 'Inter-SemiBold';
+    font-size: 7em;
+}
+
+.exbackgroundgrey {
+    background-color: #212121;
+}
+
+.exwhitetext {
+    color: #ffffff;
+    margin-right: 2%;
+}
+
+.exwhitetext2 {
+    color: #ffffff;
+    margin-left: 2%;
+}
+
+.exbackgroundgreypic {
+    margin-right: 0%;
+    margin-left: 4%;
+}
+
+.exbackgroundpurple {
+    background-color: #4A4E69; 
+}
+
+@media (max-width: 900px) {
+.exwhitetext {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.exwhitetext2 {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.exbackgroundgreypic {
+    margin-left: 0%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.exhibitonsheader h1 {
+    font-size: 1.8em;
+}
 }
