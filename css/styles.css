@@ -362,8 +362,6 @@ video {
 .breakimage {
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     height: auto;
     width: 100%;
     z-index: -1; 
