@@ -561,12 +561,34 @@ footer img {
   z-index: -1; 
   }
 
-  .aboutimage {
+.aboutinfo h2 {
+    margin-top: 2%;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 1em;
+  }
+
+.aboutinfo p {
+    margin-top: 0;
+  }
+
+.aboutinfo h2 {
+    margin-top: 2%;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 1em;
+  }
+
+.aboutinfo p {
+    margin-top: 0;
+  }
+
+.aboutimage {
     display: flex;
     width:100%;
   }
 
-  .aboutimage img {
+.aboutimage img {
     width: 100%;
   } 
 
