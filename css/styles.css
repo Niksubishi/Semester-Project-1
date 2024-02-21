@@ -585,8 +585,12 @@ footer img {
   } 
 
 @media (max-width: 800px) {
+.aboutmain {
+    padding: 5% 10%;
+}
+
 .aboutmain p {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 }
 
