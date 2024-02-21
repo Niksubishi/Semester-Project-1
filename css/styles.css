@@ -117,7 +117,6 @@ nav a:hover {
     font-weight: bold;
 }
 
-
 @media (max-width: 800px) {
     
     .image-container {
@@ -371,7 +370,6 @@ video {
     }
 }
 
-
 .breakcontainer {
     position: relative;
     height: 400px; 
@@ -481,7 +479,6 @@ footer img {
     text-decoration: none; 
     color: black;
 }
-
 
 @media (max-width: 800px) {
 
