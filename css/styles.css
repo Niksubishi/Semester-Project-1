@@ -674,3 +674,93 @@ footer img {
         font-size: 1.8em;
     }
 }
+
+/*CONTACT*/
+
+.contactcontainer {
+    display: flex;
+    background-color: #212121; 
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    width: 50%;
+    background-color: #212121; 
+    padding: 20px; 
+}
+
+.google-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 10%;
+    width: 50%;
+    background-color: #212121; 
+    padding: 20px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    resize: vertical;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+iframe {
+    width: 80%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .contactcontainer {
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+    }
+    
+    .contact-form, .google-map {
+        width: 80%; 
+        margin: 0;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%; 
+        max-width: 100%; 
+    }
+}
