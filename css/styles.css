@@ -513,6 +513,7 @@ footer img {
 
     .footer-links {
         flex-direction: column;
+        margin-bottom: 4%;
     }
 
     footer img { 
@@ -766,5 +767,9 @@ iframe {
     textarea {
         width: 100%; 
         max-width: 100%; 
+    }
+
+    button {
+        
     }
 }
