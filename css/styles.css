@@ -122,6 +122,8 @@ nav a:hover {
   
   .navbar .menu-items {
     display: flex;
+    align-items: center;
+    text-align: center;
   }
   
   .navbar .nav-container li {
