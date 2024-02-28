@@ -902,11 +902,17 @@ iframe {
     flex-direction: column;
     background-color: #212121;
     color: #ffffff;
+    text-align: center;
+    padding-bottom: 10%;
 }
 
-.contactinfo p {
+.contactinfo p:last-of-type {
+    margin-bottom: 10px; 
 }
 
+.contactinfo h3 {
+    margin-top: 20px; 
+}
 
 @media screen and (max-width: 900px) {
     .contactcontainer {
