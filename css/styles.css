@@ -928,8 +928,10 @@ iframe {
     margin-bottom: 10px; 
 }
 
-.contactinfo h3 {
+.contactinfo h2 {
     margin-top: 20px; 
+    margin-bottom: 0.5%;
+    font-size: 1.2em;
 }
 
 @media screen and (max-width: 900px) {
