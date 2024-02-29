@@ -939,6 +939,12 @@ iframe {
         justify-content: center;
     }
 
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 200px;
+    }
+
     .contact-form {
         width: 100%;
     }
