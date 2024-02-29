@@ -331,6 +331,15 @@ video {
     font-family: 'Lato-Regular';
 }
 
+.subtitle {
+    margin-bottom: -3%;
+    color: #393939;
+}
+
+.subtitle p {
+    letter-spacing: 6px;
+}
+
 .section3pic {
     display: flex; 
     justify-content: center;
@@ -361,6 +370,10 @@ video {
 
     .section3text p {
         margin-bottom: 2%;
+    }
+
+    .subtitle {
+        display: none;
     }
 
     .section3pic {
@@ -565,7 +578,8 @@ video {
 .socialsstrip a[href="#top"] {
     color: #000000; 
     text-decoration: none; 
-    font-family: 'Lato-Bold';
+    font-family: 'Lato-Regular';
+    font-size: 1.3em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -701,20 +715,15 @@ footer img {
 
 .aboutinfo h2 {
     margin-top: 2%;
+    margin-bottom: 2%;
     color: #ffffff;
     text-decoration: underline;
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: bolder;
   }
 
 .aboutinfo p {
     margin-top: 0;
-  }
-
-.aboutinfo h2 {
-    margin-top: 2%;
-    color: #ffffff;
-    text-decoration: underline;
-    font-size: 1em;
   }
 
 .aboutimage {
@@ -729,6 +738,10 @@ footer img {
 @media (max-width: 800px) {
 .aboutmain {
     padding: 5% 10%;
+}
+
+.aboutinfo h2 {
+    font-size: 1em;
 }
 
 .aboutmain p {
@@ -813,6 +826,13 @@ footer img {
 
 .privacytext p {
     font-family: 'Lato-Light';
+}
+
+.privacytext h2 {
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 2%;
+    text-decoration: underline;
 }
 
 @media (max-width: 900px) {
