@@ -590,7 +590,7 @@ footer {
     display: flex;
     flex-direction: column;
     height: auto; 
-    background-color: #988C98; 
+    background-color: #000000; 
 }
 
 .footer-content {
@@ -616,10 +616,12 @@ footer img {
 
 .footer-item h3 {
     margin: 0; 
+    color:#fff
 }
 
 .footer-item p {
     margin: 0; 
+    color:#fff
 }
 
 .footer-links {
@@ -632,7 +634,7 @@ footer img {
 
 .footer-links a {
     text-decoration: none; 
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 @media (max-width: 800px) {
