@@ -792,6 +792,10 @@ footer img {
     background-color: #4A4E69; 
 }
 
+.exbackgroundpurple img, .exbackgroundgrey img {
+    border-radius: 20px;
+}
+
 @media (max-width: 900px) {
 .exwhitetext {
     margin-left: 0%;
