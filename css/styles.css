@@ -256,6 +256,10 @@ nav a:hover {
     font-family: 'Lato-Bold';
     font-size: 2em;
     font-weight: bold;
+    padding: 0px 0px; 
+    background-color: rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    display: inline-block;
 }
 
 @media (max-width: 800px) {
@@ -351,7 +355,6 @@ video {
 
 .section3pic img {
     width: 100%;
-    border-radius: 20px;
 }
 
 @media (max-width: 900px) {
