@@ -576,10 +576,10 @@ video {
 }
 
 .socialsstrip a[href="#top"] {
-    color: #000000; 
+    color: #ffffff; 
     text-decoration: none; 
     font-family: 'Lato-Regular';
-    font-size: 1.3em;
+    font-size: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -948,7 +948,7 @@ iframe {
     }
 
     .contact-form {
-        width: 100%;
+        width: 80%;
     }
     
     .google-map {
