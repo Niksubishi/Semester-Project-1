@@ -430,6 +430,12 @@ video {
     font-weight: bold;
 }
 
+.pin-icon img {
+    width: 10px; 
+    height: auto; 
+    margin-left: 5px; 
+}
+
 .section4text p {
     width: 90%;
     margin-bottom: 3%;
@@ -471,7 +477,7 @@ video {
     position: relative;
     justify-content: center; 
     align-items: center;
-    background-color: #3D3D3D;
+    background-color: #000000;
     z-index: 1;
 }
 
