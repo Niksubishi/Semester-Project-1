@@ -186,8 +186,8 @@ nav a:hover {
   }
   
   .nav-container .hamburger-lines .line3 {
-    transform-origin: 0% 100%;
     transition: transform 0.4s ease-in-out;
+    transform-origin: 0% 100%;
   }
   
   .navbar .menu-items {
@@ -321,7 +321,7 @@ video {
 }
 
 .section3text h2 {
-    font-family: 'PlayfairDisplay-Regular' ;
+    font-family: 'PlayfairDisplay-Regular';
     font-size: 3em;
     font-weight: 10;
     margin-bottom: 6%;
@@ -667,7 +667,6 @@ footer img {
         display: none;
     }
     
-
     footer {
         flex-direction: column; 
         text-align: center; 
