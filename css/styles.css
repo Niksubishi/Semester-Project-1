@@ -707,7 +707,7 @@ footer img {
     font-family: 'Lato-Light';
     color: #ffffff;
     font-size: 1.2em;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 .aboutmain::after {
@@ -724,7 +724,7 @@ footer img {
   }
 
 .aboutinfo h2 {
-    margin-top: 2%;
+    margin-top: 4%;
     margin-bottom: 2%;
     color: #ffffff;
     text-decoration: underline;
@@ -733,7 +733,7 @@ footer img {
   }
 
 .aboutinfo p {
-    margin-top: 0;
+    margin-top: 2%;
   }
 
 .aboutimage {
@@ -840,12 +840,13 @@ footer img {
 
 .privacytext p {
     font-family: 'Lato-Light';
+    margin-top: 4%;
 }
 
 .privacytext h2 {
     font-size: 1.2em;
     color: #fff;
-    margin-top: 2%;
+    margin-top: 3%;
     text-decoration: underline;
     font-family: 'lato-bold';
 }
