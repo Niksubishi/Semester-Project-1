@@ -55,7 +55,7 @@ Have Git installed. You can download from [here](https://git-scm.com/downloads)
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:NoroffFEU/NoroffFEU/Semester-Project-1.git   
+git clone git@github.com:Niksubishi/Semester-Project-1.git   
 ```
 
 2. open `index.html` to view the site locally. Or visit the live site: [Visit Community Science Museum ](https://niksubishi.github.io/Semester-Project-1/)
