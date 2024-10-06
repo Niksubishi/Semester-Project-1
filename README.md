@@ -4,7 +4,8 @@
 # Community Science Museum 
 
 
-<img width="1416" alt="Screenshot 2024-10-06 at 18 52 52" src="https://github.com/user-attachments/assets/808e5fe3-19d6-4bb3-9a63-c9293707091d">
+<img width="1360" alt="Screenshot 2024-10-06 at 19 41 09" src="https://github.com/user-attachments/assets/7365778b-d3fa-4375-b3a7-979c2f40a79f">
+
 
 
 [Visit Community Science Museum ](https://niksubishi.github.io/Semester-Project-1/)
